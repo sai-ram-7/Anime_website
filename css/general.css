@@ -1,0 +1,21 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h5{
+
+
+    font-size: medium;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}

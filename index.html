@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/new.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/footer.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Bebas+Neue&family=Darumadrop+One&family=Noto+Sans+JP:wght@100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Anime</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Geners</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Adventure</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Demons</a></li>
+              <li><a class="dropdown-item" href="#">Fantasy</a></li>
+              <li><a class="dropdown-item" href="#">Game</a></li>
+              <li><a class="dropdown-item" href="#">Isekai</a></li>
+              <li><a class="dropdown-item" href="#">Magic</a></li>
+              <li><a class="dropdown-item" href="#">Martial Arts</a></li>
+              <li><a class="dropdown-item" href="#">Music</a></li>
+              <li><a class="dropdown-item" href="#">Samurai</a></li>
+              <li><a class="dropdown-item" href="#">Sports</a></li>
+              <li><a class="dropdown-item" href="#">Thriller</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Types</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">MOVIE</a></li>
+              <li><a class="dropdown-item" href="#">MUSIC</a></li>
+              <li><a class="dropdown-item" href="#">ONA</a></li>
+              <li><a class="dropdown-item" href="#">OVA</a></li>
+              <li><a class="dropdown-item" href="#">SPECIAL</a></li>
+              <li><a class="dropdown-item" href="#">TV</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn custom-search-btn" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <a href="login.html" class="btn custom-login-btn">Login</a>
+        
+
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Carousel -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slideimg3.png" class="d-block w-100" alt="Slide1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slideimg2.png" class="d-block w-100" alt="slide2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slideimg3.png" class="d-block w-100" alt="slide3">
+    </div>
+  </div>
+</div>
+
+<div>
+  <section class="product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="trending__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Trending Now</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster1.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 10000</div>
+                                </div>
+                                <div class="product__item__text">
+
+                                    <h5><a href="#">Solo Leveling Season 2: Arise from the Shadow</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster2.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 17</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 10000</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Sakamoto Days</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster3.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 15</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 12000</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Blue Lock Season 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster4.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 11000</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">One Piece</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster5.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 13</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 12300</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Dandadan</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/poster6.jpg');">
+                                    <div class="ep"> TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 19</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 12900</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Bleach: Thousand-Year Blood War - The Conflict</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Popular Shows</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter1.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 21</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 19141</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Bleach</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter2.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 31</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 91141</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Naruto: Shippuden</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter3.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 19</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 2141</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Dr. Stone: Science Future</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter4.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 14</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 1321</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Arifureta: From Commonplace to World's Strongest Season 3</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter5.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 23</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 4291</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Attack on Titan</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/pposter6.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 41</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 11444</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Black Clover</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Recently Added Shows</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter1.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 141</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Tasokare Hotel </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter2.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 16</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 1141</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Welcome to Japan, Ms. Elf!</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter3.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 16</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 1111</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">Loner Life in Another World</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter4.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 19</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 3221</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">
+                                      Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter5.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 31</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 7941</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">TRILLION GAME </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" style="background-image: url('posters/rposter6.jpg');">
+                                    <div class="ep">TV</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 18</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 2121</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <h5><a href="#">The Apothecary Diaries Season 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8">
+                <div class="product__sidebar">
+                    <div class="product__sidebar__view">
+                        <div class="section-title">
+                            <h5>Top Views</h5>
+                        </div>
+                        <ul class="filter__controls">
+                            <li class="active" data-filter="*">Day</li>
+                            <li data-filter=".week">Week</li>
+                            <li data-filter=".month">Month</li>
+
+                        </ul>
+                        <div class="filter__gallery">
+                            <div class="product__sidebar__view__item set-bg mix day years"
+                            style="background-image: url('hposter3.jpg')">
+                            <div class="ep">TV</div>
+                            <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                            <h5><a href="#">One Piece</a></h5>
+                        </div>
+                        <div class="product__sidebar__view__item set-bg mix month week"
+                        style="background-image: url('hposter2.avif')">
+                        <div class="ep">TV</div>
+                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                        <h5><a href="#">Black Clover</a></h5>
+                    </div>
+                    <div class="product__sidebar__view__item set-bg mix week years"
+                    style="background-image: url('hposter11.png')">
+                    <div class="ep">TV</div>
+                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                    <h5><a href="#">Solo Leveling</a></h5>
+                </div>
+                <div class="product__sidebar__view__item set-bg mix years month"
+                style="background-image: url('hposter4.jpg')">
+                <div class="ep">TV</div>
+                <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                <h5><a href="#">Naruto</a></h5>
+            </div>
+            <div class="product__sidebar__view__item set-bg mix day"
+            style="background-image: url('Hposter5.webp')">
+            <div class="ep">TV</div>
+            <div class="view"><i class="fa fa-eye"></i> 9141</div>
+            <h5><a href="#">Attack on titan</a></h5>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="product__sidebar__comment">
+    <div class="section-title">
+        <h5>New Content</h5>
+    </div>
+    <div class="product__sidebar__comment__item">
+        <div class="product__sidebar__comment__item__pic">
+            <img src="posters/poster3.jpg" alt="">
+        </div>
+        <div class="product__sidebar__comment__item__text">
+
+            <h5><a href="#">Blue Lock Season 2</a></h5>
+            <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+        </div>
+    </div>
+    <div class="product__sidebar__comment__item">
+        <div class="product__sidebar__comment__item__pic">
+            <img src="posters/poster2.jpg" alt="">
+        </div>
+        <div class="product__sidebar__comment__item__text">
+            <h5><a href="#">Sakamoto Days</a></h5>
+            <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+        </div>
+    </div>
+    <div class="product__sidebar__comment__item">
+        <div class="product__sidebar__comment__item__pic">
+            <img src="posters/poster1.jpg" alt="">
+        </div>
+        <div class="product__sidebar__comment__item__text">
+            <h5><a href="#">Solo Leveling Season 2: Arise from the Shadow</a></h5>
+            <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+        </div>
+    </div>
+    <div class="product__sidebar__comment__item">
+        <div class="product__sidebar__comment__item__pic">
+            <img src="posters/rposter4.jpg" alt="">
+        </div>
+        <div class="product__sidebar__comment__item__text">
+            <h5><a href="#">Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells</a></h5>
+            <span><i class="fa fa-eye"></i> 17.341 Viewes</span>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="page-up" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" title="Back to Top">
+      <i class="fa fa-arrow-up"></i>
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col col-logo">
+            <div class="footer__logo">
+              <a href="./index.html" class="logo-text">Anime</a>
+          </div>
+          
+          </div>
+          <div class="col col-nav">
+              <nav class="footer__nav">
+                  <ul>
+                      <li class="active"><a href="./index.html">Homepage</a></li>
+                      <li><a href="./categories.html">Categories</a></li>
+                      <li><a href="./blog.html">Our Blog</a></li>
+                      <li><a href="./contact.html">Contacts</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="col col-copy">
+              <p>
+                &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with 
+                <i class="bi bi-heart-fill"></i> by <a href="https://colorlib.com" target="_blank">SRR</a>
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/player.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

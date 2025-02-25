@@ -1,0 +1,72 @@
+.footer {
+  background-color: #222;
+  color: #ddd;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.footer a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: rgb(229, 9, 20);
+}
+
+.page-up {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: rgb(229, 9, 20);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.page-up i {
+  color: #fff;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.footer__nav ul {
+display: flex;
+justify-content: center; /* Centers the links horizontally */
+gap: 20px; /* Space between links */
+list-style: none; /* Removes bullet points */
+padding: 0;
+margin: 0;
+}
+.footer__logo .logo-text {
+font-size: 24px;
+font-weight: bold;
+color: rgb(229, 9, 20); /* Adjust color as needed */
+text-decoration: none;
+}
+
+
+
+
+.footer__nav ul li a {
+text-decoration: none;
+color: #fff; /* Adjust to match your theme */
+font-size: 16px;
+}
+
+.footer__nav ul li a:hover {
+color: rgb(229, 9, 20); /* Optional hover effect */
+}
+.bi-heart-fill {
+color: rgb(229, 9, 20); /* Change color */
+font-size: 15px; /* Change size */
+}
